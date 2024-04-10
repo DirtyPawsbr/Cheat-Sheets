@@ -1,0 +1,244 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hd nav{
+   background-color: #080808;
+   display: flex;
+   justify-content: center;
+}
+.hd nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.hd nav a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+nav h4 {
+    padding: 3px;
+    margin-left: 15px;
+    color: darkorange;
+    font-size: 24px;
+}
+
+
+.background2 {
+    background-image: url(images/css1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 48%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+}
+.containerr {
+    position: relative;
+    height: 500px;
+    background-color: #080808;
+}
+
+.text222 {
+    margin: 10px 10px;
+    padding: 5px;
+    line-height: 1.3;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 51%;
+    font-size: 14px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textimg {
+    margin-left: 120px;
+}
+.containerforcss {
+    position: relative;
+    height: 470px;
+    background-color: lightblue;
+}
+
+.flexbox {
+    background-image: url(images/flexbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+
+}
+.textforcss {
+    position: absolute;
+    left: 470px;
+    height: 100%;
+    width: 40%;
+
+}
+
+.textforcss dd, .textforcss p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #080808;
+    margin: 10px 30px;
+
+}
+
+.containercards {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ced1;
+}
+
+.cardeven {
+  border-left: 5px solid blue;
+  width: 40%;
+  height: 20%;
+}
+
+.cardodd {
+    border-left: 5px solid green;
+    width: 10%;
+    height: 20%;
+}
+
+
+.cardeven h2 {
+    border-radius: 40px;
+    color: darkolivegreen;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardodd h2 {
+    text-align: center;
+    border-radius: 40px;
+    color: #9400d3;
+    text-transform: uppercase;
+}
+
+.cardeven dd {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.cardodd dd {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.flexbox2 {
+    background-image: url(images/displayflex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 90%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.containertransition {
+    background-color: black;
+}
+
+.transitiontext {
+    color: pink;
+    height: 140px;
+    text-align: center;
+    margin: 10px 200px;
+}
+
+.transitionflow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    text-align: center;
+    background-color:#080808;
+    color: white;
+    font-size: 24px;
+}
+.transition1 { 
+    width: 150px; 
+    height: 150px; 
+    background: red; 
+    transition: width 2s; 
+} 
+
+.transition1:hover { 
+    background: yellow; 
+    width: 300px;
+    cursor: pointer;
+} 
+.transition2 {
+    width: 100px; 
+    height: 100px; 
+    background: green;
+    transition: width 300ms ease-in-out 1s;
+}
+.transition2:hover {
+    background-color: blue;
+    cursor: pointer;
+    width: 300px;
+
+}
+
+.transitionflow2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    text-align: center;
+    background-color:#080808;
+    color: white;
+    font-size: 24px;
+}
+
+.transition3 { 
+    width: 150px; 
+    height: 150px; 
+    background-color: green;
+    transition: width 2s, height 2s, transform 2s;
+} 
+
+.transition3:hover { 
+    background-color: pink;
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+    transform: rotate(180deg);
+} 
+.transition4 {
+    width: 200px; 
+    height: 100px; 
+    background-color: saddlebrown;
+    transition: width 1s, height 1s, transform 1s;
+    
+}
+.transition4:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    transform: rotate(360deg);
+}
+.foot {
+    text-align: center;
+    color: red;
+    background-color: black;
+}
